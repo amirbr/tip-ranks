@@ -4,3 +4,12 @@
     align-items: center;
     justify-content: center;
 }
+
+.input-style {
+    width: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 25px;
+}

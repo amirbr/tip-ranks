@@ -6,4 +6,23 @@
     padding: 15px;
     margin: 15px;
     text-align: left;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
 }
+
+.stock div {
+    margin-bottom: 10px;
+}
+
+.stock:hover {
+    box-shadow: 0 0 6px rgb(35 173 255);
+    background-color: rgba(232, 232, 232, 0.47);
+}
+
+@media only screen and (max-width: 800px) {
+    .stock {
+        width: 100%;
+    }
+}
+
+
